@@ -44,9 +44,9 @@ const render = () => {
   <li 
   class="list__item ${task.done ? "list__item--done" : ""}"
 >
-<button class="js-done">zrobione?</button>
-<button class="js-remove">usuń</button>
+<button class="tasks__button tasks__button--done js-done"> ${task.done ? "✓" : ""}</button>
 ${task.content}
+<button class="tasks__button tasks__button--remove js-remove">🗑</button>
 </li>
   `;
   }
