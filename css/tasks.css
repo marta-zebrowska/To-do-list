@@ -5,7 +5,7 @@
 }
 
 .tasks__button {
-    color: white;
+    color: white; 
     width: 30px;
     height: 30px;
     border: none;
@@ -20,7 +20,7 @@
     background: #e60838;
 }
 
-.list__item {
+.tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
@@ -29,6 +29,6 @@
     padding: 10px;
   }
 
-.list__item--done {
+.tasks__content--done {
     text-decoration: line-through;
 }
