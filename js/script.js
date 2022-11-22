@@ -42,7 +42,7 @@ const render = () => {
   for (const task of tasks) {
     htmlString += `
   <li 
-  class="list__item ${task.done ? "list__item--done" : ""}"
+  class="tasks__item ${task.done ? "tasks__content--done" : ""}"
 >
 <button class="tasks__button tasks__button--done js-done"> ${task.done ? "✓" : ""}</button>
 ${task.content}
