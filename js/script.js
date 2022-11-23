@@ -47,7 +47,7 @@ const render = () => {
   <button class="tasks__button tasks__button--done js-done"> ${
     task.done ? "✓" : ""
   }</button>
-  <span class="tasks__content${task.done ? "tasks__content--done" : ""}">
+  <span class="tasks__content ${task.done ? "tasks__content--done" : ""}">
   ${task.content}
   </span>
  
