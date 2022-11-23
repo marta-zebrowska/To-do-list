@@ -12,6 +12,13 @@
     padding: 0;
 }
 
+.tasks__button:hover {
+    background-color: hsl(120, 100%, 35%);
+  }
+  .tasks__button:active {
+    background-color: hsl(120, 100%, 45%);
+  }
+
 .tasks__button--done {
     background: #1a7f1a;
 }
@@ -19,6 +26,14 @@
 .tasks__button--remove {
     background: #e60838;
 }
+
+.tasks__button--remove:hover {
+    background-color: hsl(347, 93%, 60%);
+  }
+  
+  .tasks__button--remove:active {
+    background-color: hsl(347, 93%, 70%);
+  }
 
 .tasks__item {
     display: grid;
