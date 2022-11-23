@@ -41,13 +41,17 @@ const render = () => {
   let htmlString = "";
   for (const task of tasks) {
     htmlString += `
-  <li 
-  class="tasks__item ${task.done ? "tasks__content--done" : ""}"
->
-<button class="tasks__button tasks__button--done js-done"> ${task.done ? "✓" : ""}</button>
-${task.content}
-<button class="tasks__button tasks__button--remove js-remove">🗑</button>
-</li>
+  <li class="tasks__item js-task">
+   <button class="tasks__button tasks__button--done js-done"> ${
+     task.done ? "✓" : ""
+   }
+   </button>
+   <span class="tasks__content${task.done ? "tasks__content--done" : ""}"
+    >
+     ${task.content}
+    </span>
+    <button class="tasks__button tasks__button--remove js-remove">🗑</button>
+   </li>
   `;
   }
 
