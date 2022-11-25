@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
+    padding: 20px;
 }
 
 @media (max-width: 767px) {
@@ -23,4 +24,8 @@
     background: teal;
     color: white;
     border: none;
+    cursor: pointer;
   } 
+  .form__button:hover {
+    background: hsl(180, 100%, 35%);;
+  }
