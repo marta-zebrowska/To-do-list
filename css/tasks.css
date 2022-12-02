@@ -21,7 +21,7 @@
 
 .tasks__button--done {
     background: #1a7f1a;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .tasks__button--remove {
@@ -45,6 +45,10 @@
     align-items: center;
     padding: 10px;
   }
+
+.tasks__item--hidden {
+  display: none;
+}
 
 .tasks__content--done {
     text-decoration: line-through;
