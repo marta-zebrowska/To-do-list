@@ -21,10 +21,12 @@
 
 .tasks__button--done {
     background: #1a7f1a;
+    transition: 1s;
 }
 
 .tasks__button--remove {
     background: #e60838;
+    transition: 1s;
 }
 
 .tasks__button--remove:hover {
