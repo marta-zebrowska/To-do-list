@@ -1,0 +1,13 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.buttons__button {
+    background-color: transparent;
+    color: hsl(180, 100%, 25%);
+    border: none;
+    margin: 0 0 0 20px;
+    transition: 0.3s;
+}
