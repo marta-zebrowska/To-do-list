@@ -4,9 +4,28 @@
     box-shadow: 0 0 5px #ddd;
 }
 
-.section__header {
-    margin: 0;
+.section__body {
     padding: 20px;
-    font-size: 20px;
+}
+
+.section__header {
     border-bottom: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: auto auto;
+    }
+}
+
+.section__title {
+    font-size: 20px;
+    margin: 0;
 }
