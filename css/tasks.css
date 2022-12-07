@@ -1,6 +1,5 @@
 .tasks {
     margin: 0;
-    padding: 20px;
     list-style: none;
 }
 
@@ -9,7 +8,6 @@
     width: 30px;
     height: 30px;
     border: none;
-    padding: 0;
 }
 
 .tasks__button:hover {
@@ -44,6 +42,7 @@
     border-bottom: 1px solid #ddd;
     align-items: center;
     padding: 10px;
+    padding-left: 0;
   }
 
 .tasks__item--hidden {
